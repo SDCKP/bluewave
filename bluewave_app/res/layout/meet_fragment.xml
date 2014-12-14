@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+ 
+    <ListView
+        android:id="@+id/meet_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="90"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp" />
+    
+    <LinearLayout 
+        android:id="@+id/meet_controls"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="10"
+        android:layout_marginBottom="0dip"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:background="@color/bluewave_red">
+
+        <TextView
+            android:id="@+id/meet_control_status_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/txt_meet_discovery_disabled"
+            android:textColor="@android:color/background_light"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
+ 
+</LinearLayout>

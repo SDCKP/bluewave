@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/contact_separator"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@color/bluewave_darkblue"
+        android:visibility="gone"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/meet_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/meet_avatar"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="3dp"
+        android:text="Found at 13:37"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/meet_alias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/meet_avatar"
+        android:layout_toRightOf="@+id/meet_avatar"
+        android:layout_marginLeft="3dp"
+        android:text="Contact alias"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/meet_matchingPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/meet_avatar"
+        android:layout_toLeftOf="@+id/meet_time"
+        android:layout_toRightOf="@+id/meet_avatar"
+        android:layout_marginLeft="3dp"
+        android:maxLines="1"
+        android:text="86% match"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/meet_avatar"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/contact_separator"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/txt_profile_default_avatar"
+        android:maxHeight="55dp"
+        android:maxWidth="55dp"
+        android:minHeight="55dp"
+        android:minWidth="55dp"
+        android:src="@drawable/contact_avatar" />
+
+</RelativeLayout>

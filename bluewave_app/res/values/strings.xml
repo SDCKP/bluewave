@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bluewave</string>
+    <string name="action_settings">Settings</string>
+    <string name="bt_login">Login</string>
+    <string name="txt_alias">Alias</string>
+    <string name="txt_email">E-mail</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_repassword">Repeat password</string>
+    <string name="txt_regacc_info">It\'s your first time? Register an account here</string>
+    <string name="txt_register">Register</string>
+    <string name="tab_talk">Talk</string>
+    <string name="tab_meet">Meet</string>
+    <string name="tab_discover">Discover</string>
+    <string name="txt_chat_hint">Write your message</string>
+    <string name="txt_chat_send">Send</string>
+    <string name="txt_delete">Delete contact</string>
+    <string name="txt_filter">Filter</string>
+    <string name="txt_delete_confirmation">Are you sure you want to delete this user from your contact list?\nThis action can not be undone!</string>
+    <string name="txt_delete_success">Contact deleted</string>
+    <string name="txt_delete_error">Contact couldn\'t be deleted</string>
+    <string name="txt_notification_newmsgs">Bluewave</string>
+    <string name="txt_notification_messages">new messages</string>
+    <string name="txt_connecting">Connecting&#8230;</string>
+    <string name="title_activity_profile_view">Profile</string>
+    <string name="txt_profile_fetching">Obtaining profile data&#8230;</string>
+    <string name="txt_meet_discovery_enabled">Discover in progress&#8230;</string>
+    <string name="txt_meet_discovery_disabled">Stopped, tap to begin</string>
+    <string name="txt_meet_found">Found</string>
+    <string name="txt_meet_match">Matching your filter</string>
+    <string name="txt_meet_unmatch">Not matching your filter</string>
+    <string name="txt_meet_waveful">With Bluewave</string>
+    <string name="txt_meet_waveless">Without Bluewave</string>
+    <string name="txt_meet_unidentified">Not identified</string>
+    <string name="txt_meet_add">Add</string>
+    <string name="txt_meet_add_confirm">The contact request has been sent\nThe user will appear on the "TALK" tab when he accepts your request</string>
+    <string name="txt_meet_added">The contact has been added successfully</string>
+    <string name="txt_meet_add_single_notification_request_title">Contact request from</string>
+    <string name="txt_meet_add_single_notification_request_desc">Tap for see the user profile</string>
+    <string name="txt_meet_add_multi_notification_request_title">pending contact requests</string>
+    <string name="txt_meet_add_multi_notification_request_desc">Tap for see them all</string>
+    <string name="txt_meet_ignore">Ignore</string>
+	<string name="txt_meet_requests">Requests</string>
+    <string name="txt_meet_ignored_ok">Contact request ignored</string>
+    
+    <!-- Profile strings -->
+    <string name="txt_profile">Profile</string>
+    <string name="txt_profile_edit">Edit your profile</string>
+    <string name="txt_profile_save">Save</string>
+    <string name="txt_profile_edit_alias_title">Modifying alias</string>
+    <string name="txt_profile_edit_gender_title">Modifying gender</string>
+    <string name="txt_profile_edit_location_title">Modifying nationality</string>
+    <string name="txt_profile_edit_lookingfor_title">Modifying what you are looking for</string>
+    <string name="txt_profile_edit_about_title">Modifying about</string>
+    <string name="txt_profile_edit_height_title">Modifying height</string>
+    <string name="txt_profile_edit_weight_title">Modifying weight</string>
+    <string name="txt_profile_edit_interests_title">Modifying interests</string>
+    <string name="txt_profile_edit_alias_desc">Insert your alias</string>
+    <string name="txt_profile_edit_gender_desc">Insert your gender</string>
+    <string name="txt_profile_edit_age_desc">Choose your birth date</string>
+    <string name="txt_profile_edit_about_desc">Tell more about yourself in brief</string>
+    <string name="txt_profile_edit_height_desc">Choose your height (in cm)</string>
+    <string name="txt_profile_edit_weight_desc">Choose your weight (in kg)</string>
+    <string name="txt_profile_edit_age_invalid">Invalid age\nYou must have between 18 and 90 years</string>
+    <string name="txt_profile_edit_success">Profile updated successfully</string>
+    <string name="txt_profile_edit_error">The profile couldn\'t be updated\nPlease verify the data and try again</string>
+    <string name="txt_profile_default_unk">Unknown</string>
+    <string name="txt_profile_default_age">Age:</string>
+    <string name="txt_profile_default_lookingfor">Looking for:</string>
+    <string name="txt_profile_default_about">About</string>
+    <string name="txt_profile_default_height">Height:</string>
+    <string name="txt_profile_default_weight">Weight:</string>
+    <string name="txt_profile_default_phyinfo">Physical information</string>
+    <string name="txt_profile_default_interests">Interests</string>
+    <string name="txt_profile_default_avatar">User avatar</string>
+    <string name="txt_profile_edit_avatar_invalid">Invalid image</string>
+    <string name="txt_profile_edit_avatar_cantcrop">You must install the Google Camera app!</string>
+
+    <!-- Settings strings -->
+    <string name="txt_settings_title">Settings</string>
+    <string name="txt_settings_notifications_category">Notifications</string>
+    <string name="txt_settings_notifications_enable">Enable notifications</string>
+    <string name="txt_settings_notifications_enable_desc">Display visual notifications on the notification bar</string>
+    <string name="txt_settings_notifications_vibrate">Vibrate</string>
+    <string name="txt_settings_notifications_events">Events</string>
+    <string name="txt_settings_notifications_events_desc">Events that will trigger the notifications</string>
+
+    <string-array name="txt_settings_notifications_cases">
+        <item>New message</item>
+        <item>New contact around</item>
+        <item>New contact request</item>
+    </string-array>
+    <string-array name="txt_settings_notifications_cases_values">
+        <item>NEWMSG</item>
+        <item>NEWNEAR</item>
+        <item>NEWREQ</item>
+    </string-array>
+
+    <string name="txt_settings_general_category">General</string>
+    <string name="txt_settings_general_ignore_matching">Ignore non-matches</string>
+    <string name="txt_settings_general_ignore_matching_desc">Doesn\'t display matches on the meet tab that doesn\'t match at least the % specified below</string>
+    <string name="txt_settings_general_percent_matching">Percent for match</string>
+    <string name="txt_settings_general_percent_matching_desc">The minimum % of matching required for an user to appear on the meet tab</string>
+    <string name="txt_settings_account_category">Account</string>
+    <string name="txt_settings_account_pass_change">Change password</string>
+    <string name="txt_settings_account_pass_change_desc">Change the password for this account. Require the previous password</string>
+    <string name="txt_settings_account_delete">Delete account</string>
+    <string name="txt_settings_account_delete_desc">Deletes the account and all the data stored on both the server and this device. Cannot be undone</string>
+    <string name="txt_settings_account_logout">Log out</string>
+    <string name="txt_settings_account_logout_desc">Closes the session of the account on this device. Requires to restart the application</string>
+    <string name="txt_settings_account_logout_warningmsg">Are you sure you want to log out from this account?</string>
+    <string name="txt_settings_account_pass_change_step1_title">Current password</string>
+    <string name="txt_settings_account_pass_change_step1_desc">Insert the current password of your account</string>
+    <string name="txt_settings_account_pass_change_step2_title">New password</string>
+    <string name="txt_settings_account_pass_change_step2_desc">Insert the new password for your account</string>
+    <string name="txt_settings_account_pass_change_step3_title">Repeat password</string>
+    <string name="txt_settings_account_pass_change_step3_desc">Insert again the new password for your account</string>
+    <string name="txt_settings_account_pass_change_success">Your password has been changed successfully</string>
+    <string name="txt_settings_about_category">About</string>
+    <string name="txt_settings_about_FAQ">FAQ</string>
+    <string name="txt_settings_about_FAQ_content"><![CDATA[<b>How does it works?</b><br>When you start scanning Bluewave search for devices with the application running in discovery mode near you through the Bluetooth technology. When an user is found, it asks to the server for the basic information of the user and displays it to you.<br>You can then check its profile and decide if you want to add him or not to your contacts.<br><br><b>What information do you store?</b><br>We store in our server the user login data (email and password), the user profile information and the contact list of every user.<br>We do not store an history of the messages sent, only a queue of messages that have not been delivered yet to the contact (the messages get deleted from our server as soon as the contact get it).<br><br><b>Why is it free?</b><br>We do not want to charge our users for the usage of this program. Instead, we are getting the funds to keep the project going from the business that want to appear on the "DISCOVER" tab. Consider it as a non-intrusive way of advertisement, but with more interaction of the user :)<br><br>Thanks for your support on using our application. You can send suggestions and report bugs by sending an email to the address on the About section.]]></string>
+    <string name="txt_settings_account_delete_password">Please insert your current password for continue</string>
+    <string name="txt_settings_account_delete_dialog">BEWARE! You are going to delete your account from the server and the device.\nAll the contacts, settings and data will be deleted.\nThis action cannot be undone.\n\nDo you want to continue?</string>
+
+    <!-- Error messages -->
+    <string name="err_wrong_login">Wrong email/password combination</string>
+    <string name="err_pass_unmatch">The passwords doesn\'t match</string>
+    <string name="err_pass_wrong">Wrong password</string>
+    <string name="err_fields_unfilled">Please fill all the fields</string>
+    <string name="err_invalid_email">Invalid email</string>
+    <string name="err_missing_params">Unknown error. Please try again later</string>
+    <string name="err_email_used">Email already registered. Forgot your password?</string>
+    <string name="err_pass_too_simple">The password is too simple</string>
+    <string name="err_msg_not_sent">The message couldn\'t be sent. Please try again later</string>
+    <string name="err_not_in_contacts">This user is not in your contact list!</string>
+    <string name="err_login_notice_title">Account error</string>
+    <string name="err_login_notice_desc">Login failed\nThis can be caused due to a server error or a password change for this account.\nPlease input your login details again or try again later</string>
+    <string name="err_timeout">The request has timed out\nPlease verify your internet connection.</string>
+    <string name="err_account_delete">The account couldn\'t be deleted. Please try again later</string>
+    <string name="err_not_available">Not available</string>
+    <string name="err_already_contact">This user is already on your contact list</string>
+    <string name="err_user_not_exists">The user does not exists!</string>
+
+    <!-- Attribute names -->
+    <string name="attr_MALE">Male</string>
+    <string name="attr_FEMALE">Female</string>
+    <string name="attr_OTHER">Other</string>
+    <string name="attr_FRIEND">Friendship</string>
+    <string name="attr_SEX">Sex</string>
+    <string name="attr_LOVE">Love</string>
+    <string name="attr_SWINGER">Swinger couple</string>
+    <string name="attr_HOBBY_MATE">Hobby mate</string>
+    <string name="attr_NORTHAMERICAN">North American</string>
+    <string name="attr_SOUTHAMERICAN">South American</string>
+    <string name="attr_SPANISH">Spanish</string>
+    <string name="attr_BRITISH">British</string>
+    <string name="attr_IRISH">Irish</string>
+    <string name="attr_GERMAN">German</string>
+    <string name="attr_SWEDISH">Swedish</string>
+    <string name="attr_PORTUGUESE">Portuguese</string>
+    <string name="attr_ITALIAN">Italian</string>
+    <string name="attr_CHINESE">Chinese</string>
+    <string name="attr_INDIAN">Indian</string>
+    <string name="attr_EGYPTIAN">Egyptian</string>
+    <string name="attr_ARAB">Arab</string>
+    <string name="attr_SOUTHAFRICAN">South African</string>
+    <string name="attr_GYPSY">Gypsy</string>
+    <string name="attr_FRENCH">French</string>
+    <string name="attr_RUSSIAN">Russian</string>
+    <string name="attr_FOOTBALL">Football</string>
+    <string name="attr_CYCLING">Cycling</string>
+    <string name="attr_TRAVEL">Travel</string>
+    <string name="attr_VIDEOGAMES">Videogames</string>
+    <string name="attr_TVSHOWS">TV Shows</string>
+    <string name="attr_ANIME">Anime</string>
+    <string name="attr_MANGA">Manga</string>
+    <string name="attr_PROGRAMMING">Programming</string>
+    <string name="attr_PARTY">Party</string>
+    <string name="attr_DANCING">Dancing</string>
+    <string name="attr_MUSIC">Music</string>
+    <string name="attr_MUSICIAN">Musician</string>
+    <string name="attr_POLITICS">Politics</string>
+    <string name="attr_MOVIES">Movies</string>
+    <string name="attr_TECHNOLOGY">Technology</string>
+    <string name="attr_DOGS">Dogs</string>
+    <string name="attr_CATS">Cats</string>
+    <string name="attr_EXOTICPETS">Exotic pets</string>
+    <string name="attr_NULL">Not specified</string>
+
+    <string-array name="empty_array" />
+
+</resources>

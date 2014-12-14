@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- <PreferenceCategory
+            android:title="@string/txt_settings_general_category">
+            
+        <CheckBoxPreference
+                android:key="pref_general_ignore_checkbox"
+                android:title="@string/txt_settings_general_ignore_matching"
+                android:summary="@string/txt_settings_general_ignore_matching_desc" />
+        
+        <EditTextPreference
+                android:key="pref_general_ignore_edittext"
+                android:title="@string/txt_settings_general_percent_matching"
+                android:summary="@string/txt_settings_general_percent_matching_desc"
+                android:dialogTitle="@string/txt_settings_general_percent_matching"
+                android:defaultValue="10"
+                android:dependency="pref_general_ignore_checkbox" />
+ 
+    </PreferenceCategory>
+                  -->
+    <PreferenceCategory
+            android:title="@string/txt_settings_notifications_category">
+ 
+        <CheckBoxPreference
+                android:key="pref_notification_enable"
+                android:title="@string/txt_settings_notifications_enable"
+                android:summary="@string/txt_settings_notifications_enable_desc"
+                android:defaultValue="true" />
+        
+        <CheckBoxPreference
+                android:key="pref_notification_vibrate"
+                android:title="@string/txt_settings_notifications_vibrate"
+                android:dependency="pref_notification_enable"
+                android:defaultValue="true" />
+                
+        <MultiSelectListPreference
+		        android:key="pref_notification_type_list"
+	            android:dialogTitle="@string/txt_settings_notifications_events"
+                android:title="@string/txt_settings_notifications_events"
+                android:summary="@string/txt_settings_notifications_events_desc"
+		        android:entries="@array/txt_settings_notifications_cases"
+		        android:entryValues="@array/txt_settings_notifications_cases_values"
+		        android:defaultValue="@array/txt_settings_notifications_cases_values" 
+		        android:dependency="pref_notification_enable" />
+ 
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="@string/txt_settings_account_category">
+ 
+        <Preference
+                android:key="pref_account_pass_change"
+                android:title="@string/txt_settings_account_pass_change"
+                android:summary="@string/txt_settings_account_pass_change_desc"/>
+        
+        <Preference android:key="pref_account_logout"
+                android:title="@string/txt_settings_account_logout"
+                android:summary="@string/txt_settings_account_logout_desc"/>
+        
+        <Preference android:key="pref_account_delete"
+                android:title="@string/txt_settings_account_delete"
+                android:summary="@string/txt_settings_account_delete_desc"/>
+            
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/txt_settings_about_category">
+        
+        <Preference android:key="pref_about_FAQ"
+		        android:title="@string/txt_settings_about_FAQ"/>
+        
+        <Preference android:title="Coded by Bruno Sanz"
+		        android:summary="synx@gmx.com"/>
+        
+        <Preference android:title="Version"
+		        android:summary="v0.1 Development build"/>
+        
+    </PreferenceCategory>            
+    
+</PreferenceScreen>        

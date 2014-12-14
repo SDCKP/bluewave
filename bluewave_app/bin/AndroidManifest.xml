@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.synxapps.bluewave"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bluewave_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.synxapps.bluewave.LoginActivity"
+            android:label="@string/bt_login"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.synxapps.bluewave.RegisterActivity"
+            android:label="@string/txt_register"
+            android:parentActivityName="com.synxapps.bluewave.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.synxapps.bluewave.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.synxapps.bluewave.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.synxapps.bluewave.ChatActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.synxapps.bluewave.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.synxapps.bluewave.ProfileViewActivity"
+            android:label="@string/title_activity_profile_view"
+            android:parentActivityName="com.synxapps.bluewave.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.synxapps.bluewave.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.synxapps.bluewave.SettingsActivity"
+            android:label="@string/txt_settings_title"
+            android:parentActivityName="com.synxapps.bluewave.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.synxapps.bluewave.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.synxapps.bluewave.ProfileEditActivity"
+            android:label="@string/txt_profile_edit"
+            android:parentActivityName="com.synxapps.bluewave.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.synxapps.bluewave.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.synxapps.bluewave.ImageViewer"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.synxapps.bluewave.RequestsActivity"
+            android:label="@string/txt_meet_requests"
+            android:parentActivityName="com.synxapps.bluewave.MainActivity" 
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.synxapps.bluewave.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
